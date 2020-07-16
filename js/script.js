@@ -19,7 +19,8 @@ var parola = prompt("inserisci una parola");
 // ORA CREO LA FUNZIONE
 palindroma(parola);
 
-
+console.log(palindroma(parola));
+// NON RESISTUISCO NULLA
 
 function palindroma ( stringa) {
   var stringa2 = "";
@@ -31,4 +32,5 @@ function palindroma ( stringa) {
   } else {
     document.getElementById("risultato").innerHTML = "La parola non è palindroma";
   }
+  return 0;
 }
