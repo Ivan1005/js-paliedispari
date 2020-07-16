@@ -22,11 +22,11 @@ palindroma(parola);
 
 
 function palindroma ( stringa) {
-  stringa2 = "";
+  var stringa2 = "";
   for ( var i = stringa.length -1; i >= 0 ; i--) {
     stringa2 += stringa[i];
   }
-  if ( stringa2 === stringa) {
+  if ( stringa2 == stringa) {
     document.getElementById("risultato").innerHTML = "La parola è palindroma";
   } else {
     document.getElementById("risultato").innerHTML = "La parola non è palindroma";
